@@ -1,0 +1,15 @@
+    [package]
+    name = "NFTMarketplace"
+    version = "1.0.0"
+    authors = []
+
+    [addresses]
+    MyModule ='0x555504aa864a34a41926bc0fcdaa150dceaf2cc5725178f665407bb8c1bc73da'
+    [dev-addresses]
+
+    [dependencies.AptosFramework]
+    git = "https://github.com/aptos-labs/aptos-core.git"
+    rev = "mainnet"
+    subdir = "aptos-move/framework/aptos-framework"
+
+    [dev-dependencies]
